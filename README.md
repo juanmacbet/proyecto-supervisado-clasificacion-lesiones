@@ -35,16 +35,16 @@ Como resultados:
 - Hemos creado un modelo SVM con los mejores parámetros posibles, capaz de predecir si un jugador sufrirá o no una lesión con una efectividad mayor del 95%.
 - Hemos subido el modelo a la web de HuggingFace, donde tiene una interfaz gráfica que lo hace muy intuitivo y donde cualquier persona puede hacerle consultas de predicción y visualizar los resultados. He aquí el enlace al mismo: https://huggingface.co/spaces/juanmacbet/lesiones-svm.
 
-#### Limitaciones del análisis:
-Este modelo no pretende sobreponerse al veredicto de un profesional deportivo o de la salud.
+### Limitaciones del análisis:
+- Este modelo no pretende sobreponerse al veredicto de un profesional deportivo o de la salud.
 ---
 
-### Visualizaciones
-#### Correlación de Variables con la Variable Objetivo:  
+## Visualizaciones
+### Correlación de Variables con la Variable Objetivo:  
 
 ![Correlación de Variables](images/correlacion_variables.png)
 
-#### Respuesta tras consulta al modelo a través del Gradio subido a HuggingFace:  
+### Respuesta tras consulta al modelo a través del Gradio subido a HuggingFace:  
 
 ![Respuesta modelo](images/gradio_huggingface.png)
 
