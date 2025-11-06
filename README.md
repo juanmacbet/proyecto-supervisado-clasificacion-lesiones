@@ -1,7 +1,7 @@
 # Proyecto Aprendizaje Supervisado Clasificación Lesiones
 
 ## Descripción  
-Este es un proyecto de Machine Learning donde se entrena un modelo SVM de clasificación supervisada para predecir si un jugador de fútbol sufrirá una lesión o no en la próxima temporada, para ello al modelo se le proporciona un dataset de jugadores de fútbol, con numerosos atributos sobre su salud o hábitos, todo esto acompañado por una variable objetivo que indica si cada determinado jugador se lesionó o no la temporada siguiente.
+Este es un proyecto de Machine Learning donde se entrena un modelo SVM de clasificación supervisado para predecir si un jugador de fútbol sufrirá una lesión o no en la próxima temporada, para ello al modelo se le proporciona un dataset de jugadores de fútbol, con numerosos atributos sobre su salud o hábitos, todo esto acompañado por una variable objetivo que indica si cada determinado jugador se lesionó o no la temporada siguiente.
 
 ---
 
@@ -33,7 +33,7 @@ Como resultados:
 
 - Hemos podido ver cuáles son las variables que más influyen en que un jugador se lesione o no en la temporada próxima. 
 - Hemos creado un modelo SVM con los mejores parámetros posibles, capaz de predecir si un jugador sufrirá o no una lesión con una efectividad mayor del 95%.
-- Hemos subido el modelo a la web de HuggingFace, donde tiene una interfaz gráfica que lo hace muy intuitivo y donde cualquier persona puede hacerle consultas de predicción y visualizar los resultados.
+- Hemos subido el modelo a la web de HuggingFace, donde tiene una interfaz gráfica que lo hace muy intuitivo y donde cualquier persona puede hacerle consultas de predicción y visualizar los resultados. He aquí el enlace al mismo: https://huggingface.co/spaces/juanmacbet/lesiones-svm.
 
 #### Limitaciones del análisis:
 Este modelo no pretende sobreponerse al veredicto de un profesional deportivo o de la salud.
